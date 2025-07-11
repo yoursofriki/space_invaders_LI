@@ -7,8 +7,6 @@ Universidad Comunera
 
 Lucas Irala
 
-<------------------------------------------------------------------------------------------------------------------------------------->
-
 # Patrones de Diseño Implementados
 
 El núcleo de este proyecto es la aplicación práctica de los siguientes patrones:
@@ -37,15 +35,13 @@ Define cómo se mueve el enjambre de aliens. La lógica del movimiento (ir de la
 ### ¿Por qué se usó? 
 Para hacer que el algoritmo de movimiento sea intercambiable. La clase Board simplemente le dice a la estrategia "muévete", sin preocuparse por los detalles de cómo lo hace. Podríamos crear fácilmente una nueva estrategia de movimiento en zigzag y cambiarla en caliente sin modificar ninguna otra clase.
 
-<------------------------------------------------------------------------------------------------------------------------------------->
-
 # Cómo Jugar
 
 ### La forma más sencilla de ejecutar el proyecto es usando un IDE como IntelliJ IDEA.
 
-1. Clona o descarga este repositorio en tu ordenador.
+1. Clona o descarga este repositorio en tu computadora.
 
-2. Abre el proyecto en IntelliJ IDEA (File -> Open... y selecciona la carpeta del proyecto).
+2. Abre el proyecto en IntelliJ IDEA *(File -> Open... y selecciona la carpeta del proyecto)*.
 
 3. Navega en el explorador de proyectos a src/spaceinvaders/core/Main.java.
 
