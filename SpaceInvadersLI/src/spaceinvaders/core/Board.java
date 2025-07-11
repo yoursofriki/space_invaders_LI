@@ -63,7 +63,7 @@ public class Board extends JPanel implements Runnable {
         }
 
         gameManager.setIngame(false);
-        gameManager.setMessage("Click Board to Start");
+        gameManager.setMessage("Dale click para empezar");
     }
 
     @Override
