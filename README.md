@@ -49,4 +49,4 @@ Para hacer que el algoritmo de movimiento sea intercambiable. La clase Board sim
 
 5. Finalmente de click al centro de la pestaña del juego.
 
-¡A jugar!
+**¡A jugar!**
